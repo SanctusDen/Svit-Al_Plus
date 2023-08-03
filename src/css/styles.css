@@ -1,0 +1,11 @@
+:root {
+    --bgd-btn-green: #95BD27;
+    --bgd-section:#242729;
+    --color-text:#242729;
+}
+
+body{
+    font-family: Montserrat;
+    margin: 0;
+    list-style: none;
+}
