@@ -6,6 +6,10 @@
 
 body{
     font-family: Montserrat;
-    margin: 0;
-    list-style: none;
 }
+
+@import url('reset.css');
+
+@import url('header.css');
+@import url('hero.css');
+@import url('footer.css');
