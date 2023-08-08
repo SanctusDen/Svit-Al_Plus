@@ -19,12 +19,12 @@ header{
     color: var(--color-white-text);
 }
 
-.header-item{
+.header-list{
     display: flex;
     align-items: center;
 }
 
-.header-list{
+.header-item{
     color: var(--color-white-text);
     display: flex;
     justify-content: space-between;

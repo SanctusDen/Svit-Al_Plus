@@ -5,12 +5,15 @@
 /* @import url('./footer.css'); */
 @import url('./modal.css');
 @import url('./burger-menu.css');
+@import url('./better.css');
 
 :root {
   --bgd-btn-green: #95BD27;
   --bgd-section:#242729;
   --color-text:#242729;
   --color-white-text:#fff;
+  --color-black-text:#000;
+  --bgd-color-section:#E8E4E5;
 }
 
 /* Reset styles */

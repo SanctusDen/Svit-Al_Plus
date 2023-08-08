@@ -1,0 +1,31 @@
+.better{
+    background-color: var(--bgd-color-section);
+}
+
+.better-desc{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.better-list{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.better-title{
+    color: var(--color-black-text);
+    font-size: 25px;
+    font-weight: 500;
+
+    padding-top: 8px;
+    padding-left: 54px;
+}
+
+.better-title-desc{
+    color: var(--color-black-text);
+    font-size: 20px;
+    font-weight: 400;
+
+    padding-top: 28px;
+}
