@@ -1,0 +1,115 @@
+@import url('reset.css');
+
+@import url('header.css');
+@import url('hero.css');
+/* @import url('./footer.css'); */
+@import url('./modal.css');
+@import url('./burger-menu.css');
+
+:root {
+  --bgd-btn-green: #95BD27;
+  --bgd-section:#242729;
+  --color-text:#242729;
+  --color-white-text:#fff;
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+input,
+select {
+  padding: 0px;
+}
+
+body{
+  font-family: Montserrat;
+}
+
+.container{
+  padding: 0px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0px 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.container {
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}

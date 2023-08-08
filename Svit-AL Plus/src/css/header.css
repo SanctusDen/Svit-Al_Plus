@@ -1,0 +1,31 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+}
+
+.info-tel{
+    color: var(--color-white-text);
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    color: var(--color-white-text);
+    display: flex;
+    justify-content: space-between;
+}

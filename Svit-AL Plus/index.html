@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svit-Al Plus</title>
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
+    <!--fonts-txt-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="box-main container">
+        <nav>
+        <a href="">
+          <span class="">
+            <img src="" alt="" />
+          </span>
+        </a>
+
+        <ul class="header-item">
+          <li class="header-list">Скління</li>
+          <li class="header-list">Системи</li>
+          <li class="header-list">Пергола</li>
+        </ul>
+                              <button
+                        class="menu-toggle js-open-menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu"
+                        >
+                        <svg
+                            width="30"
+                            height="25"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                            fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                    </button>
+        <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
+      </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Svit - Al plus</h1>
+          <p class="hero-info">
+            Комфортний та гарний відпочинок стає ще доступнішим
+          </p>
+          <button class="btn-hero" type="button">Дивить більше</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="vite.config.js"></script>
+    <script type="module" src="./src/js/mobile-menu.js"></script>
+    <script type="module" src="./src/js/modal.js"></script>
+  </body>
+</html>

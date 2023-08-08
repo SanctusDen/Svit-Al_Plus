@@ -1,0 +1,132 @@
+.mt{
+    padding-top: 25px;
+    padding-bottom: 26px;
+}
+@media screen and (min-width:768px) {
+    .mt{
+        max-width: 768px;
+        padding-bottom: 22px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .mt{
+        max-width: 1200px;
+        padding: 0;
+    }
+}
+
+.menu-toggle {
+    min-height: 12px;
+    min-width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  
+    color: var(--color-white-text);
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+  
+@media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+}
+  
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: var(--title-text-color);
+    z-index: 999;
+  
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+
+    flex-direction: column;
+    overflow: auto;
+    
+}
+  
+.menu-container.is-open {
+    transform: translateX(0);
+}
+  
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: #000;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);   
+}
+  
+.mobile-menu {
+    list-style: none;
+    margin-bottom: 284px;
+}
+  
+.mobile-menu .link {
+    display: block;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    /* text */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.actions-box{
+    gap: 56px;
+    display: flex;
+    
+}
+
+.box-icon{
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    fill: var(--button-color-on);
+}
+
+.mobile-li{
+    margin-bottom: 32px;
+}
+
+.boxi{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #434455;
+    margin-bottom: 40px;
+    color: var(--title-bgc-text);
+}
+
+.box{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 48px;
+}
