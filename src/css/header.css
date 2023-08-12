@@ -10,6 +10,13 @@ header{
     z-index: 99;
 }
 
+.no-transparency{
+    background: linear-gradient(to right,#3c3b3f,#605c3c);
+    backdrop-filter: blur(400px);
+    transition: background-color, 3.75s;
+    opacity: 1.1;
+}
+
 .box-main {
     display: flex;
     align-items: center;
@@ -19,9 +26,28 @@ header{
     color: var(--color-white-text);
 }
 
+.nav{
+    display: flex;
+    align-items: center
+}
+
 .header-list{
     display: flex;
     align-items: center;
+    opacity: 0;
+}
+@media screen and (min-width: 768px) {
+.header-list{
+    display: flex;
+    gap: 20px;
+    opacity: 1;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.header-list{
+    gap: 70px;
+}
 }
 
 .header-item{
