@@ -1,28 +1,113 @@
 header{
     position: fixed;
+    z-index: 99;
+    padding: 20px 24px;
+}
+@media screen and (min-width: 768px) {
+.header{
+    padding: 50px 24px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.header{
     top: 0;
     left: 0;
     width: 100%;
     padding: 50px 80px;
-    /* display: flex;
-    align-items: center; */
-    z-index: 99;
+}
 }
 
+.img-logo{
+    width: 30px;
+
+}
+@media screen and (min-width: 768px) {
+.img-logo{
+    width: 45px;
+}
+}
+@media screen and (min-width: 1440px) {
+.img-logo{
+    width: 80px;
+}
+}
+
+.svit-al-plus{
+    position: absolute;
+    height: 0;
+    left: 34px;
+    top: -2px;
+
+    color: var(--bgd-btn-green);
+    font-size: 10px;
+    font-weight: 700;
+    width: 40px;
+}
+@media screen and (min-width: 768px) {
+.svit-al-plus{
+    position: absolute;
+    height: 0;
+    left: 46px;
+    top: 0px;
+
+    font-size: 15px;
+    font-weight: 700;
+    width: 56px;
+}
+}
+
+@media screen and (min-width: 1440px) {
 .svit-al-plus{
     position: absolute;
     width: 188px;
     height: 0;
     left: 78px;
     top: 10px;
-    color: var(--bgd-btn-green);
     font-size: 30px;
     font-weight: 450;
     margin-left: 10px;
 }
+}
+
+.logo-descr{
+    position: absolute;
+    width: 192px;
+    height: 0;
+    left: 34px;
+    top: 24px;
+    
+    color: var(--color-white-text);
+    font-size: 4px;
+    font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+.logo-descr{
+    position: absolute;
+    width: 192px;
+    height: 0;
+    left: 46px;
+    top: 38px;
+
+    font-size: 8px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.logo-descr{
+    position: absolute;
+    width: 192px;
+    height: 0;
+    left: 90px;
+    top: 54px;
+    font-size: 20px;    
+    font-weight: 400;
+}
+}
+
 
 .no-transparency{
-    background: linear-gradient(to right,#3c3b3f,#605c3c);
+    background: linear-gradient(to right, blur);
     backdrop-filter: blur(400px);
     transition: background-color, 3.75s;
     opacity: 1.1;
@@ -39,12 +124,15 @@ header{
 }
 
 .nav{
+    opacity: 0;
     display: flex;
     align-items: center
 }
 @media screen and (min-width: 768px) {
 .nav{
-
+    opacity: 1;
+    margin-left: 140px;
+    margin-right: 0;
 }
 }
 
@@ -89,13 +177,13 @@ header{
     padding-right: 10px;
 }
 
-.logo-descr{
-    position: absolute;
-    width: 192px;
-    height: 0%;
-    left: 90px;
-    top: 54px;
-    color: #FFF;
-    font-size: 20px;    
-    font-weight: 400;
+.icon-tel{
+    color: var(--bgd-btn-green);
+    font-size: 24px;
+    padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+.icon-tel{
+    padding-left: 40px;
+}
 }

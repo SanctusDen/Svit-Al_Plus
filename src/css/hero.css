@@ -12,30 +12,32 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
     color: var(--bgd-btn-green);
+    margin-top: 216px;
 }
-
-.logo-link{
-    display: flex;
-}
-
 @media screen and (min-width: 768px) {
 .hero-title{
     font-size: 50px;
+    margin-top: 174px;
 }
 }
 @media screen and (min-width: 1440px) {
 .hero-title{
     font-size: 50px;
+    margin-top: 216px;
 }
 }
 
+
+.logo-link{
+    display: flex;
+}
+
+
+
 .hero-info{
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 400;
     color: var(--color-white-text);
     padding-top: 20px;
@@ -59,15 +61,18 @@
     opacity: 0;
 }
 
-/* @media screen and (min-width: 768px) {
-.info-tel{
-    font-size: 20px;
+.info-tel:hover,
+.info-tel:focus {
+    color: var(--bgd-btn-green);
 }
-} */
 
 @media screen and (min-width: 1440px) {
 .info-tel{
+    color: var(--color-white-text);
+    font-size: 18px;
+    font-weight: 400;
     opacity: 1;
+    width: 152px;
 }
 }
 
@@ -83,7 +88,7 @@
     background-color: inherit;
     color: var(--color-white-text);
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 266px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,4 +106,16 @@
 .btn-hero-icon:hover,
 .btn-hero-icon:focus {
     fill: var(--color-white-text);
+}
+
+@media screen and (min-width: 768px) {
+.btn-hero{
+    margin-bottom: 246px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.btn-hero{
+    margin-bottom: 350px;
+}
 }

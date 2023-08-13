@@ -26,12 +26,12 @@
 
   <body>
     <div class="page">
-      <header class="header" [data-header] >
+      <header class="header" data-header>
 
       <div class="box-main">
         <div class="mt">
-          <a href="" class="logo-link">
-            <img src="./src/image/logo/Logo-desc.svg" alt="Logo" />
+          <a href="./index.html" class="logo-link">
+            <img class="img-logo" src="./src/image/logo/Logo-desc.svg" alt="Logo">
             <span class="svit-al-plus">Svit-AL Plus
             </span>
           </a>
@@ -43,6 +43,7 @@
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span>Системи</li>
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span>Пергола</li>
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span> Скління</li>
+            <li> <span class="icon-tel"><ion-icon name="call-outline"></ion-icon></span></li>
           </ul>
               <button
                 class="menu-toggle js-open-menu"
@@ -61,9 +62,8 @@
                     ></path>
                 </svg>
             </button>
-          
+             <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
         </nav>
-        <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
       </div>
     </header>
 
@@ -71,11 +71,8 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Svit - Al plus</h1>
-          <p class="hero-info">
-            Комфортний та гарний відпочинок стає ще доступнішим
-          </p>
-          <button class="btn-hero" type="button">Дивить більше <span ><ion-icon name="caret-down-outline" class="btn-hero-icon"></ion-icon></span></button>
-          
+          <p class="hero-info">Комфортний та гарний відпочинок стає ще доступнішим</p>
+          <button class="btn-hero" type="button">Дивить більше <span class="btn-hero-icon"><ion-icon name="caret-down-outline" ></ion-icon></span></button>
         </div>
       </section>
 
@@ -84,11 +81,9 @@
           <div class="better-desc">
             <ul class="better-list">
               <li class="better-item">
-                <!-- <scr>
-                  <svg>
+                  <!-- <svg>
                     <use></use>
-                  </svg>
-                </scr> -->
+                  </svg> -->
                 <h2 class="better-title">Високоякісність</h2>
                 <p class="better-title-desc">Ми використовуємо лише високоякісні матеріали та застосовуємо сучасні технології виробництва.</p>
               </li>
