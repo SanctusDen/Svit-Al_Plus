@@ -1,18 +1,15 @@
 .mt{
-    padding-top: 25px;
-    padding-bottom: 26px;
+    position: relative;
 }
 @media screen and (min-width:768px) {
     .mt{
-        max-width: 768px;
-        padding-bottom: 22px;
+
     }
 }
 
 @media screen and (min-width:1200px) {
     .mt{
-        max-width: 1200px;
-        padding: 0;
+
     }
 }
 
