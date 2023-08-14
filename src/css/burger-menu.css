@@ -1,21 +1,26 @@
 .mt{
     position: relative;
+    
 }
 @media screen and (min-width:768px) {
-    .mt{
+.mt{
 
-    }
+}
 }
 
 @media screen and (min-width:1200px) {
-    .mt{
+.mt{
 
-    }
+}
 }
 
 .menu-toggle {
-    min-height: 12px;
-    min-width: 18px;
+    position: relative;
+    content: '';
+    right: 224px;
+    top: -4px;
+    min-height: 22px;
+    min-width: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,9 +36,9 @@
 }
   
 @media (min-width: 768px) {
-    .menu-toggle {
-      display: none;
-    }
+.menu-toggle {
+    display: none;
+}
 }
   
 .menu-toggle:hover,
@@ -43,6 +48,7 @@
 
 .menu-container {
     position: fixed;
+    content: '';
     top: 0;
     left: 0;
     width: 100vw;
@@ -68,6 +74,7 @@
   
 .menu-container .menu-toggle {
     position: absolute;
+    content: '';
     top: 24px;
     right: 24px;
     color: #000;
@@ -122,7 +129,7 @@
 .box{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 0.83;
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 48px;

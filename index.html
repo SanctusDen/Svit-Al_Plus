@@ -28,7 +28,7 @@
     <div class="page">
       <header class="header" data-header>
 
-      <div class="box-main">
+      <div class="container box-main">
         <div class="mt">
           <a href="./index.html" class="logo-link">
             <img class="img-logo" src="./src/image/logo/Logo-desc.svg" alt="Logo">
@@ -43,7 +43,8 @@
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span>Системи</li>
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span>Пергола</li>
             <li class="header-item"><span class="header-icon-menu"><ion-icon name="menu-outline"></ion-icon></span> Скління</li>
-            <li> <span class="icon-tel"><ion-icon name="call-outline"></ion-icon></span></li>
+            <li class="header-item tel"> <span class="icon-tel"><ion-icon name="call-outline"></ion-icon>
+            <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a></span></li>
           </ul>
               <button
                 class="menu-toggle js-open-menu"
@@ -62,9 +63,44 @@
                     ></path>
                 </svg>
             </button>
-             <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
-        </nav>
+             
+
+            <div class="menu-container js-menu-container" id="mobile-menu">
+              <button class="menu-toggle js-close-menu">
+                <svg class="size-burger"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="24">
+                    <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </button>
+                        
+            <ul class="mobile-menu">
+              <li class="mobile-li"><a href="./index.html" class="link studio">Системи</a></li>
+              <li class="mobile-li"><a href="./Portfolio.html" class="link portfolioo">Пергола</a></li>
+              <li><a href="" class="link">Скління</a></li>
+            </ul>
+
+            <div class="box-mobile">
+              <ul>
+                  <li class="info-item">
+                      <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
+                  </li>
+                  <li class="info-item">
+                      <a class="info link box" href="mailto:picyr1976vasil@gmail.com">picyr1976vasil@gmail.com</a>
+                  </li>
+                  
+              </ul>
+            </div>                 
       </div>
+      </nav>
+
+
+    </div>
     </header>
 
     <main>
@@ -106,6 +142,11 @@
 
 
     <script type="module" src="./src/js/"></script>
+    <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
     <script type="module" src="vite.config.js"></script>
     <script type="module" src="./src/js/mobile-menu.js"></script>
     <script type="module" src="./src/js/modal.js"></script>
