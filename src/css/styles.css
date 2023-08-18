@@ -6,6 +6,8 @@
 @import url('./modal.css');
 @import url('./burger-menu.css');
 @import url('./better.css');
+@import url('./panorama.css');
+@import url('./panorama-after.css');
 
 :root {
   --bgd-btn-green: #95BD27;

@@ -3,29 +3,87 @@
 }
 
 .better-desc{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* @media screen and (min-width: 768px) {
+.better-desc{
+   
+}
+} */
+
+@media screen and (min-width: 1440px) {
+.better-desc{
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
+}
+.better-list{
+    display: wrap;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
 .better-list{
     display: flex;
-    align-items: center;
+    gap: 20px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.better-list{
     gap: 100px;
+}
 }
 
 .better-title{
     color: var(--color-black-text);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 
     padding-top: 8px;
-    padding-left: 54px;
+    padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+.better-title{
+    font-size: 25px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.better-title{
+    font-size: 30px;
+}
 }
 
 .better-title-desc{
     color: var(--color-black-text);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-
     padding-top: 28px;
+}
+@media screen and (min-width: 768px) {
+.better-title-desc{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.better-title-desc{
+    font-size: 22px;
+}
+}
+
+.better-item{
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+.better-item{
+   margin-bottom: 52px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.better-item{
+    margin-bottom: 80px;
+}
 }
