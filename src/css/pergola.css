@@ -16,10 +16,14 @@
 }
 
 
-.pergolf-title{
+.pergola-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.4;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
 .pergola-title{
@@ -29,8 +33,13 @@
 
 @media screen and (min-width: 1440px) {
 .pergola-title{
-    font-size: 30px;
+    font-size: 22px;
     padding-left: 100px;
+    position: relative;
+    content: '';
+    top: 34px;
+    left: 550px;
+    margin-bottom: 0;
 }
 }
 
@@ -47,6 +56,7 @@
 
 @media screen and (min-width: 1440px) {
 .pergola-box-icon{
+    position: relative;
     font-size: 30px;
     flex-wrap: nowrap;
 }
@@ -72,6 +82,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
 .pergola-desc{
@@ -88,19 +100,100 @@
 }
 }
 
-/* .block-pergola{
-    margin-left: 80px;
-    margin-top: 60px;
-} */
+.block-pergola{
+    margin-top: 20px;
+    margin-left: 24px;
+}
 @media screen and (min-width: 768px) {
 .block-pergola{
 
-    
 }
 }
 @media screen and (min-width: 1440px) {
 .block-pergola{
     margin-left: 80px;
     margin-top: 60px;
+    position:  absolute;
+}
+}
+
+.pergola-list-title{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 24px;
+}
+@media screen and (min-width: 768px) {
+.pergola-list-title{
+    font-size: 20px;
+}
+}
+@media screen and (min-width: 1440px) {
+.pergola-list-title{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+}
+
+.pergola-list-descr{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-left: 24px;
+    padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+.pergola-list-descr{
+    font-size: 20px;
+}
+}
+@media screen and (min-width: 1440px) {
+.pergola-list-descr{
+    font-size: 22px;
+    
+}
+}
+
+.pergola-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+.pergola-list{
+    margin-top: 30px;
+}
+}
+@media screen and (min-width: 1440px) {
+.pergola-list{
+    
+    margin-left: 100px;
+    margin-top: 52px;
+    gap: 60px;
+}
+}
+
+.pergola-btn{
+    height: auto;
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+.green-line-pergola{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+.green-line-pergola{
+}
+}
+@media screen and (min-width: 1440px) {
+.green-line-pergola{
+    display: block;
+    position: relative;
+    content: '';
+    top: -150px;
+    left: 940px;
 }
 }

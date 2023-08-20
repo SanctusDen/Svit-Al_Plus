@@ -4,7 +4,6 @@
 
 .better-desc{
     padding-top: 60px;
-    padding-bottom: 60px;
 }
 /* @media screen and (min-width: 768px) {
 .better-desc{
@@ -15,16 +14,17 @@
 @media screen and (min-width: 1440px) {
 .better-desc{
     padding-top: 80px;
-    padding-bottom: 80px;
 }
 }
 .better-list{
-    display: wrap;
+    display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
 .better-list{
     display: flex;
+    flex-wrap: nowrap;
     gap: 20px;
 }
 }
@@ -32,6 +32,8 @@
 @media screen and (min-width: 1440px) {
 .better-list{
     gap: 100px;
+    margin-left: 196px;
+    margin-right: 196px;
 }
 }
 

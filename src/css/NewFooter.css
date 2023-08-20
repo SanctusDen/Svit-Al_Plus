@@ -1,0 +1,6 @@
+#footer{
+    background-image: url('/src/image/footer/footer.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    clear: both;
+}

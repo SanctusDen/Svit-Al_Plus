@@ -26,7 +26,7 @@
 
   <body>
     <div class="page">
-      <header class="header" data-header>
+      <header class="header " data-header>
 
       <div class="container box-main">
         <div class="mt">
@@ -53,7 +53,7 @@
                 <svg
                     width="30"
                     height="25"
-                    fill="currentColor"
+                    fill="white"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -81,8 +81,8 @@
                         
             <ul class="mobile-menu">
               <li class="mobile-li"><a href="./index.html" class="link studio">Системи</a></li>
-              <li class="mobile-li"><a href="./Portfolio.html" class="link portfolioo">Пергола</a></li>
-              <li><a href="" class="link">Скління</a></li>
+              <li class="mobile-li"><a href="#" class="link portfolioo">Пергола</a></li>
+              <li><a href="#" class="link">Скління</a></li>
             </ul>
 
             <div class="box-mobile">
@@ -102,6 +102,8 @@
 
     </div>
     </header>
+
+    <!-- MAIN -->
 
     <main>
       <section class="hero">
@@ -138,9 +140,11 @@
 
        <section class="section panorama">
         <div class="container">
-          <h2 class="panorama-title">Панорамне гільйотинне скління</h2>
-          <p class="panorama-desc">Гільйотинне скління - ідеальний вибір для власників власних майданчиків, ресторанів, кафе і т.д. Всесезонність даної конструкції дозволяє контролювати температуру приміщення у теплий та холодний час. Сучасна система дуже зручна в управлінні: варто просто натиснути кнопку пульта, і вікно відкриється /закриється.</p>
-          <button class="panorama-btn">Більше інформації</button>
+          <div class="panorama-block">
+              <h2 class="panorama-title">Панорамне гільйотинне скління</h2>
+            <p class="panorama-desc">Гільйотинне скління - ідеальний вибір для власників власних майданчиків, ресторанів, кафе і т.д. Всесезонність даної конструкції дозволяє контролювати температуру приміщення у теплий та холодний час. Сучасна система дуже зручна в управлінні: варто просто натиснути кнопку пульта, і вікно відкриється /закриється.</p>
+            <button class="panorama-btn">Більше інформації</button>
+          </div>
         </div>
       </section>
 
@@ -189,39 +193,66 @@
 
       <section class="pergola">
         <div class="container">
+          <h2 class="pergola-title">В залежності від профільної серії перголи діляться на системи:</h2>
           <div class="pergola-box-icon">
-            <img src="./src/image/pergola/Frame 28desc.png" alt="women wit window">
+            <div class="">
+               <picture class="">
+                <source
+                  media="(min-width:1440px)"
+                  srcset="./src/image/pergola/Pergola_Desc.jpg 1x"
+                  type="image/jpg"/>
+                <source
+                  media="(min-width:768px)"
+                  srcset="./src/image/pergola/Pergola_Tabl.jpg 1x"
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width:767.99px)"
+                  srcset="./src/image/pergola/Pergola_Tabl.jpg 1x"
+                  type="image/jpg"
+                />
+                <img
+                  src="./src/image/pergola/Pegola_Tabl.jpg"
+                  style="border-radius: 20px;"
+                  alt="panorama with car"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            
 
-             <h2 class="pergola-title">В залежності від профільної серії перголи діляться на системи:</h2>
             <ul class="pergola-list">
               <li class="pergola-item">
-                <img class="" src="" alt="">
+                <img class="pergola-icon" src="./src/image/sprite/Standart.svg" alt="pergola stend">
+
                 <h4 class="pergola-list-title">STANDART</h4>
                 <p class="pergola-list-descr">Максимальна ширина: 4,5м</p>
-                <button class="panorama-btn">Детальніше</button>
+
+                <button class="pergola-btn panorama-btn">Детальніше</button>
               </li>
               <li class="pergola-item">
-                <img class="" src="" alt="">
+                <img class="pergola-icon" src="./src/image/sprite/Premium.svg" alt="pergola stend">
                 <h4 class="pergola-list-title">PREMIUM</h4>
                 <p class="pergola-list-descr">Максимальна ширина: 4,5м</p>
-                <button class="panorama-btn">Детальніше</button>
+
+                <button class="pergola-btn panorama-btn">Детальніше</button>
               </li>
               <li class="pergola-item">
-                <img class="" src="" alt="">
+                <img class="pergola-icon" src="./src/image/sprite/Maxi.svg" alt="pergola stend">
                 <h4 class="pergola-list-title">MINI</h4>
                 <p class="pergola-list-descr">Максимальна ширина: 6м</p>
-                <button class="panorama-btn">Детальніше</button>
+
+                <button class="pergola-btn panorama-btn">Детальніше</button>
               </li>
               <li class="pergola-item">
-                <img class="" src="" alt="">
+                <img class="pergola-icon" src="./src/image/sprite/Mini.svg" alt="pergola stend">
                 <h4 class="pergola-list-title">MAXI</h4>
                 <p class="pergola-list-descr">Максимальна ширина: 6м</p>
-                <button class="panorama-btn">Детальніше</button>
+
+                <button class="pergola-btn panorama-btn">Детальніше</button>
               </li>
             </ul>
           </div>
-
-         
 
           <div class="block-pergola">
             <h3 class="pergola-title-question">Виникли питання?</h3>
@@ -232,14 +263,35 @@
               <button class="panorama-btn">Телефонувати</button>
           </div>
         </div>
+        <div class="green-line-pergola">
+          <img src="./src/image/sprite/pergola-line.svg" alt="green line">
+        </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="">
+          <ul class="">
+              <li class="">
+                <a class="info link box" href="mailto:picyr1976vasil@gmail.com">picyr1976vasil@gmail.com</a>
+              </li>
+              <li class="info-item">
+                 <a class="info-tel link" href="tel:+380967322021">+380 96 732 2021</a>
+              </li>
+            </ul>
+          <h2></h2>
+         
+        </div>
+    </footer>
     </div>
     
 
 
 
-    <script type="module" src="./src/js/"></script>
+    <!-- <script type="" src="./src/js/header.js"></script> -->
     <script
         defer
         src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -247,7 +299,7 @@
         crossorigin="anonymous"></script>
     <script type="module" src="vite.config.js"></script>
     <script type="module" src="./src/js/mobile-menu.js"></script>
-    <script type="module" src="./src/js/modal.js"></script>
+    <!-- <script type="module" src="./src/js/modal.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>

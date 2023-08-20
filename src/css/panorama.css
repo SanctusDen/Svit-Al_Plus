@@ -79,3 +79,18 @@ font-size: 30px;
     top: 0px;
     left: 50px;
 } */
+
+.panorama-block{
+    
+}
+@media screen and (min-width: 768px) {
+.panorama-block{
+
+}
+}
+
+@media screen and (min-width: 1440px) {
+.panorama-block{
+    margin-left: 80px;
+}
+}

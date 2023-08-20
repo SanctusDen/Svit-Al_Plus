@@ -15,10 +15,10 @@
 }
 
 .menu-toggle {
-    position: relative;
+    position: absolute;
     content: '';
-    right: 224px;
-    top: -4px;
+    right: 80px;
+    top: 26px;
     min-height: 22px;
     min-width: 28px;
     display: flex;
@@ -57,7 +57,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    background-color: var(--title-text-color);
+    backdrop-filter: blur(16px);
     z-index: 999;
   
     transform: translateX(100%);
@@ -89,7 +89,7 @@
   
 .mobile-menu .link {
     display: block;
-    color: var(--primary-text-color);
+    color: var(--color-white-text);
     text-decoration: none;
     /* text */
     font-weight: 700;
@@ -131,6 +131,6 @@
     font-size: 20px;
     line-height: 0.83;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-white-text);
     margin-bottom: 48px;
 }
