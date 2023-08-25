@@ -14,12 +14,15 @@ footer{
 @media screen and (min-width:768px) {
     .footer-block{
         flex-direction: row;
-        gap: 110px;
+        flex-wrap: wrap;
+        gap: 140px;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width:1440px) {
     .footer-block{
-
+        /* justify-content: start; */
     }
 }
 
@@ -39,18 +42,21 @@ footer{
 }
 @media screen and (min-width:768px) {
     .footer-list{
-
+        
     }
 }
 @media screen and (min-width:1440px) {
     .footer-list{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
     }
 }
 
 .social {
-    padding-top: 20px;
+
     padding-bottom: 20px;
     gap: 8px;
     display: flex;
