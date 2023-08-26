@@ -6,8 +6,10 @@ header{
 @media screen and (min-width: 768px) {
 .header{
     padding: 50px 24px;
+    width: 100%;
 }
 }
+
 
 @media screen and (min-width: 1440px) {
 .header{
@@ -123,6 +125,13 @@ header{
     color: var(--color-white-text);
 }
 
+@media screen and (min-width:1024px) {
+    .head-tel{
+        opacity: 1;
+        color: var(--color-white-text);
+    }
+}
+
 .nav{
     /* position: absolute; */
     opacity: 1;
@@ -131,7 +140,7 @@ header{
 }
 @media screen and (min-width: 768px) {
 .nav{
-    margin-left: 140px;
+    margin-left: 120px;
     margin-right: 0;
 }
 }
@@ -151,14 +160,14 @@ header{
 @media screen and (min-width: 768px) {
 .header-list{
     display: flex;
-    gap: 20px;
+    gap: 12px;
     opacity: 1;
 }
 }
 
 @media screen and (min-width: 1440px) {
 .header-list{
-    gap: 70px;
+    gap: 58px;
 }
 }
 
@@ -182,16 +191,16 @@ header{
     font-size: 24px;
     /* padding-right: 20px; */
 }
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 .icon-tel{
-    padding-left: 40px;
+    font-size: 12px;
 }
 }
 @media screen and (min-width: 1440px) {
 .icon-tel{
-    padding-left: 40px;
+    font-size: 18px;
 }
-} */
+}
 
 .tel{
     width: 240px;
