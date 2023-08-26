@@ -1,0 +1,8 @@
+.Aura{
+    background-color: var(--bgd-color-section);
+}
+
+.aura-block{
+    display: flex;
+    flex-direction: row-reverse;
+}

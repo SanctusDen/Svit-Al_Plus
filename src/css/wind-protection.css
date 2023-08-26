@@ -1,0 +1,7 @@
+.wind-protection{
+    background-color: var(--bgd-color-section);
+}
+.wind-block{
+    display: flex;
+    
+}

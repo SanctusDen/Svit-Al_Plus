@@ -10,6 +10,8 @@
 @import url('./panorama-after.css');
 @import url('./pergola.css');
 @import url('./NewFooter.css');
+@import url('./wind-protection.css');
+@import url('./Aura.css');
 
 :root {
   --bgd-btn-green: #95BD27;
@@ -121,4 +123,20 @@ body{
   .container {
     max-width: 1440px;
   }
+}
+
+.more-information-btn{
+  border-radius: 50px;
+  border: 2px solid var(--bgd-btn-green);
+  box-shadow: 2px 2px 10px 0px var(--bgd-btn-green), -2px -2px 10px 0px  var(--bgd-btn-green);
+  display: flex;
+
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.more-information-btn:hover,
+.more-information-btn:focus{
+  background-color: var(--bgd-btn-green);
+  color: var(--color-white-text);
 }

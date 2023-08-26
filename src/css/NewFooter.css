@@ -22,7 +22,7 @@ footer{
 }
 @media screen and (min-width:1440px) {
     .footer-block{
-        /* justify-content: start; */
+        justify-content: start;
     }
 }
 
@@ -40,11 +40,11 @@ footer{
     padding-top: 20px;
     flex-direction: column;
 }
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     .footer-list{
         
     }
-}
+} */
 @media screen and (min-width:1440px) {
     .footer-list{
         display: flex;
