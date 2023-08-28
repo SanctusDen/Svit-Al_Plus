@@ -1,7 +1,7 @@
 window.onscroll = () => changeHeaderBackground();
 
 function changeHeaderBackground() {
-  const header = document.getElementById('[data-header]');
+  const header = document.getElementById('data-header');
   const headerOffsetTrigger = header.offsetHeight;
   const pageOffset = window.pageYOffset;
 
@@ -10,4 +10,4 @@ function changeHeaderBackground() {
   } else {
     header.classList.remove('no-transparency');
   }
-}
+};
