@@ -58,6 +58,7 @@
     padding-right: 40px;
     padding-bottom: 40px;
     backdrop-filter: blur(16px);
+    background: linear-gradient(to right, #3c3b3f, #5c6b33);
     z-index: 999;
   
     transform: translateX(100%);

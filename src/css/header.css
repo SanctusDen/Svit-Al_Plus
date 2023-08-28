@@ -4,9 +4,9 @@ header{
     padding: 20px 24px;
 }
 .header-home.no-transparency{
-     background: linear-gradient(to right, #3c3b3f, #5c6b33);
-        backdrop-filter: blur(400px);
-        transition: background-color , 750ms;
+    background: linear-gradient(to right, #3c3b3f, #5c6b33);
+    backdrop-filter: blur(400px);
+    transition: background-color , 750ms;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,7 +21,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 24px 80px;
+    padding: 12px 80px;
 }
 
 }
