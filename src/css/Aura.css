@@ -4,5 +4,109 @@
 
 .aura-block{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
+@media screen and (min-width:768px) {
+    .aura-block{
+        flex-direction: row-reverse;
+        position: relative;
+    }
+}
+/* @media screen and (min-width:1440px) {
+    .aura-block{
+
+    }
+} */
+
+.aura-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .aura-title{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .aura-title{
+        font-size: 30px;
+    }
+}
+
+.aura-descr{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .aura-descr{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+/* @media screen and (min-width:1440px) {
+    .aura-descr{
+        font-size: 22px;
+    }
+} */
+.item-btn{
+    padding-bottom: 20px;
+}
+@media screen and (min-width:1440px){
+    .item-btn{
+    padding-top: 50px;
+    padding-bottom: 0;
+
+}
+}
+
+.aura-list{
+    margin-top: 20px;
+}
+@media screen and (min-width:768px){
+    .aura-list{
+    position: absolute;
+    width: 340px;
+    content: '';
+
+    top: 35px;
+    right: 320px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .aura-list{
+    position: unset;
+    margin-top: 260px;
+    margin-left: 94px;
+    width: 100%;
+}
+}
+    
+.aura-item{
+    padding-top: 20px;
+}
+
+@media screen and (min-width:768px){
+    .aura-icon-block{
+        width: 460px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .aura-icon-block{
+    width: 740px;
+    }
+    
+}
+
+.aura-icon{
+    width: 100%;
+    margin-left: 6px;
+}
+@media screen and (min-width:768px){
+    .aura-icon{
+        width: auto;
+    }
+}
+

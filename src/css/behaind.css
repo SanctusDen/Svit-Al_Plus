@@ -1,0 +1,7 @@
+.behaind{
+    background-image: url(../image/behaind/behaind.jpg);
+    /* background-repeat: no-repeat; */
+        background-size: cover;
+    background-position: center;
+
+}

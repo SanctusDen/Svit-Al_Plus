@@ -12,6 +12,11 @@
 @import url('./NewFooter.css');
 @import url('./wind-protection.css');
 @import url('./Aura.css');
+@import url('./NIMB.css');
+
+
+
+@import url('./behaind.css');
 
 :root {
   --bgd-btn-green: #95BD27;

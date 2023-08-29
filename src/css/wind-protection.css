@@ -56,11 +56,11 @@
         height: 0;
     }
 }
-@media screen and (min-width:1440px) {
+/* @media screen and (min-width:1440px) {
     .block-wind-item{
         
     }
-}
+} */
 
 .wind-btn{
     background-color: transparent;

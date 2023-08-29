@@ -211,3 +211,27 @@
         height: 430px
     }
 }
+
+.pergola-icons{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px){
+    .pergola-icons{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px){
+    .pergola-icons{
+        display: flex;
+    }
+}
+
+.pergola-icons-tabl{
+    height: 100%;
+}
+@media screen and (min-width:1440px){
+    .pergola-icons-tabl{
+        height: 95%;
+    }
+}
