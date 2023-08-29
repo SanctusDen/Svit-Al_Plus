@@ -17,7 +17,7 @@
 .menu-toggle {
     position: absolute;
     content: '';
-    right: 80px;
+    right: 120px;
     top: 26px;
     min-height: 22px;
     min-width: 28px;
@@ -33,6 +33,22 @@
     border: none;
     border-radius: 50%;
     outline: none;
+}
+@media (min-width: 375px) {
+.menu-toggle {
+    position: absolute;
+    content: '';
+    right: 60px;
+    top: 26px;
+}
+}
+@media (min-width: 425px) {
+.menu-toggle {
+    position: absolute;
+    content: '';
+    right: 40px;
+    top: 26px;
+}
 }
   
 @media (min-width: 768px) {

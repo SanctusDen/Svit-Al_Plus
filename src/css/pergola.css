@@ -197,3 +197,17 @@
     left: 940px;
 }
 }
+
+.pergola-block-desr{
+    height: 300px
+}
+@media screen and (min-width:768px) {
+    .pergola-block-desr{
+        height: 280px
+    }
+}
+@media screen and (min-width:1440px) {
+    .pergola-block-desr{
+        height: 430px
+    }
+}

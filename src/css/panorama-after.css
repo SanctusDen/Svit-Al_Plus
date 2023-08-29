@@ -1,3 +1,24 @@
 .panorama-after{
     background-color: var(--bgd-section);
 }
+
+.box-for-panorama{
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px) {
+    .box-for-panorama{
+    width: 720px;
+    height: 300px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .box-for-panorama{
+    width: 1300px;
+    height: 500px;
+    }
+}
