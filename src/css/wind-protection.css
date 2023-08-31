@@ -67,6 +67,7 @@
     color: var(--color-white-text);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
 }
 @media screen and (min-width:768px) {
     .wind-btn{
@@ -97,7 +98,6 @@
 
 .wind-desrc{
     padding-top: 24px;
-    padding-bottom: 24px;
     padding-left: 12px;
 
     font-size: 18px;

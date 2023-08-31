@@ -69,28 +69,37 @@ font-size: 30px;
     color: var(--color-white-text);
 }
 
-/* .box-for-panorama{
-    position: relative;
-}
-
-.panorama-icon{
-    position: absolute;
-    content: '';
-    top: 0px;
-    left: 50px;
-} */
-
-/* .panorama-block{
-    
-}
-@media screen and (min-width: 768px) {
-.panorama-block{
-
-}
-} */
 
 @media screen and (min-width: 1440px) {
 .panorama-block{
     margin-left: 80px;
 }
+}
+
+
+
+.panorama-after{
+    background-color: var(--bgd-section);
+}
+
+.box-for-panorama{
+    background-color: var(--bgd-section);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px) {
+    .box-for-panorama{
+    width: 720px;
+    height: 300px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .box-for-panorama{
+    width: 1300px;
+    height: 500px;
+    }
 }

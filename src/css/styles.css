@@ -6,11 +6,11 @@
 @import url('./burger-menu.css');
 @import url('./better.css');
 @import url('./panorama.css');
-@import url('./panorama-after.css');
 @import url('./pergola.css');
 @import url('./NewFooter.css');
 @import url('./wind-protection.css');
 @import url('./Aura.css');
+@import url('./aura-choice.css');
 @import url('./NIMB.css');
 
 @import url('./Liber.css');
@@ -95,6 +95,7 @@ select {
 
 body{
   font-family: Montserrat;
+  background-color: var(--bgd-color-section);
 }
 
 

@@ -9,6 +9,10 @@
     min-height: 100vh;
 }
 
+.behaind-section{
+    background-color: var(--bgd-color-section);
+}
+
 .behaind-btn{
     background-color: transparent;
     color: var(--color-white-text);
