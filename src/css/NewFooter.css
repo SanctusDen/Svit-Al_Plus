@@ -1,9 +1,9 @@
 footer{
-    /* background-image: url('/src/image/footer/footer.jpg');
+    background-image: url(/src/image/footer/backFooter.jpg);
     background-repeat: repeat-x;
     width: 100%;
-    clear: both; */
-    background-color: var(--bgd-section);
+    clear: both;
+    margin-top: 1px;
 }
 
 .footer-block{
