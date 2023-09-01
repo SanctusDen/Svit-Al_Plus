@@ -1,7 +1,8 @@
-.footer{
-    background-image: url(/src/image/footer/backFooter.jpg);
-    background-repeat: repeat-x;
+footer{
+    /* background-image: url(/src/image/footer/backFooter.jpg);
+    background-repeat: repeat-x; */
     width: 100%;
+    background-color: var(--bgd-section);
     clear: both;
     margin-top: 1px;
 }
