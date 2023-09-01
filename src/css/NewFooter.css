@@ -1,5 +1,5 @@
 footer{
-    background-image: url(/src/image/footer/backFooter.jpg);
+    background-image: url(/src/image/footer/footer.jpg);
     background-repeat: repeat-x;
     width: 100%;
     clear: both;
@@ -7,7 +7,7 @@ footer{
 }
 
 .footer-block{
-     margin-top: 20px;
+    margin-top: 20px;
     margin-left: 24px;
     display: flex;
     flex-direction: column;
@@ -27,13 +27,6 @@ footer{
     }
 }
 
-/* .footer-mt{
-    margin-top: 20px;
-    margin-left: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .footer-list{
     display: flex;
@@ -41,11 +34,6 @@ footer{
     padding-top: 20px;
     flex-direction: column;
 }
-/* @media screen and (min-width:768px) {
-    .footer-list{
-        
-    }
-} */
 @media screen and (min-width:1440px) {
     .footer-list{
         display: flex;
