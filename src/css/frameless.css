@@ -1,31 +1,94 @@
 .frameless-block{
+    display: flex;
+    flex-direction: column;
 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width:1440px) {
+    .frameless-block{
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.frameless-title{
+    color: var(--color-black-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
 }
 @media screen and (min-width:768px) {
-    .frameless-block{
-        display: flex;
+    .frameless-title{
+        font-size: 25px;
     }
 }
 @media screen and (min-width:1440px) {
-    
+    .frameless-title{
+        font-size: 30px;
+    }
 }
 
+.frameless-descr{
+    color: var(--color-black-text);
+    font-size: 18px;
 
+    font-weight: 400;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .frameless-descr{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .frameless-descr{
+        font-size: 22px;
+    }
+} 
 
-
-    
-
-
-
-
+.frameless-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width:768px) {
+    .frameless-list{
+        width: 600px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .frameless-list{
+        width: 610px;
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+}
 
 .frameless-block-icon{
     background: linear-gradient(to right, #56575B 40%, #56575B 40%);
-    width: 500px;
+    width: auto;
     border-radius: 20px;
-
 }
 
+@media screen and (min-width:768px) {
+    .frameless-block-icon{
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:1440px) {
+    .frameless-block-icon{
+        width: 540px;
+        margin-left: 24px;
+        margin-right: 0;
+    }
+}
 .frameless-icon{
-
+    width: 100%;
 }
