@@ -1,0 +1,61 @@
+header{
+    animation-duration: 1000ms;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.hero-info{
+    animation-duration: 1000ms;
+    animation-name: slideinUp;
+}
+@keyframes slideinUp {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+.panorama-title{
+    animation-name: slidein;
+    animation-duration: 4500ms;
+}
+
+.wind-title{
+    animation-name: slidein;
+    animation-duration: auto;
+}
+
+
+.panorama-desc{
+    animation-duration: 4s;
+  animation-name: skroll;
+  animation-direction: alternate;
+}
+
+@keyframes skroll {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

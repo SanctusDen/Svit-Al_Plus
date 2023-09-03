@@ -98,10 +98,11 @@
 .link-movent{
     color: var(--bgd-btn-green);
 
-    font-size: 15px;
+    font-size: 20px;
 
     font-weight: 450;
     line-height: 1.2;
+    padding-top: 8px;
 }
 
 .movent-item{
@@ -113,4 +114,14 @@
 
 .movent-icon{
     width: 100%;
+}
+.movent-icon:hover,
+.movent-icon:focus{
+    cursor: pointer;
+
+    border-radius: 20px;
+    border: 2px solid #95BD27;
+
+
+    box-shadow: 2px 2px 10px 0px #95BD27, 2px 2px 10px 0px #95BD27;
 }
