@@ -84,6 +84,7 @@ font-size: 30px;
 
 .box-for-panorama{
     background-color: var(--bgd-section);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     width: auto;
