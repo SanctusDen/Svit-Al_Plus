@@ -1,0 +1,31 @@
+.frameless-block{
+
+}
+@media screen and (min-width:768px) {
+    .frameless-block{
+        display: flex;
+    }
+}
+@media screen and (min-width:1440px) {
+    
+}
+
+
+
+
+    
+
+
+
+
+
+.frameless-block-icon{
+    background: linear-gradient(to right, #56575B 40%, #56575B 40%);
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.frameless-icon{
+
+}
