@@ -83,11 +83,12 @@
     font-weight: 400;
     line-height: 1.4;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
 .pergola-desc{
     font-size: 20px;
+    padding-bottom: 50px;
 }
 }
 
@@ -96,7 +97,7 @@
     font-size: 22px;
     width: 690px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 }
 

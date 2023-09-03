@@ -72,6 +72,7 @@
     line-height: 1.4;
 
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 @media screen and (min-width:768px){
     .movent-descr{
@@ -91,6 +92,9 @@
     }
 }
 
+.movent-block-info{
+    padding-bottom: 30px;
+}
 .link-movent{
     color: var(--bgd-btn-green);
 
