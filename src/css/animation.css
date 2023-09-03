@@ -1,5 +1,5 @@
 header{
-    animation-duration: 1000ms;
+    animation-duration: 2700ms;
     animation-name: slidein;
 }
 
@@ -16,7 +16,7 @@ header{
 }
 
 .hero-info{
-    animation-duration: 1000ms;
+    animation-duration: 3300ms;
     animation-name: slideinUp;
 }
 @keyframes slideinUp {
@@ -44,8 +44,8 @@ header{
 
 .panorama-desc{
     animation-duration: 4s;
-  animation-name: skroll;
-  animation-direction: alternate;
+    animation-name: skroll;
+    animation-direction: alternate;
 }
 
 @keyframes skroll {

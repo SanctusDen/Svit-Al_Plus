@@ -31,6 +31,8 @@
   --color-white-text:#fff;
   --color-black-text:#000;
   --bgd-color-section:#E8E4E5;
+
+  --timing-cubic:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Reset styles */
@@ -144,10 +146,47 @@ body{
   gap: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
+
+  transition: background-color 500ms var(--timing-cubic)
 }
 
 .more-information-btn:hover,
 .more-information-btn:focus{
+  background-color: var(--bgd-btn-green);
+  color: var(--color-white-text);
+}
+
+.panorama-btn{
+  height: 42px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 50px;
+  border: 2px solid #95BD27;
+  box-shadow: 2px 2px 10px 0px #95BD27, -2px -2px 10px 0px #95BD27;
+
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  transition: background-color 600ms var(--timing-cubic)
+}
+@media screen and (min-width: 768px) {
+.panorama-btn{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.panorama-btn{
+  margin-top: 50px;
+  margin-bottom: 48px;
+}
+}
+
+.panorama-btn:hover,
+.panorama-btn:focus {
   background-color: var(--bgd-btn-green);
   color: var(--color-white-text);
 }

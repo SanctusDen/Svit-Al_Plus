@@ -238,4 +238,5 @@
 
 
     box-shadow: 2px 2px 10px 0px #95BD27, 2px 2px 10px 0px #95BD27;
+    transition: background-color 300ms var(--timing-cubic)
 }

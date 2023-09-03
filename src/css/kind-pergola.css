@@ -18,11 +18,7 @@
 
     padding-bottom: 20px;
 }
-/* @media screen and (min-width:768px) {
-    .kind-title{
-        font-size: 25px;
-    }
-} */
+
 @media screen and (min-width:1440px) {
     .kind-title{
         font-size: 30px;
