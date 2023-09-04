@@ -141,6 +141,7 @@ body{
   border: 2px solid var(--bgd-btn-green);
   box-shadow: 2px 2px 10px 0px var(--bgd-btn-green), -2px -2px 10px 0px  var(--bgd-btn-green);
   display: flex;
+  background-color: transparent;
 
   padding: 10px 20px;
   gap: 10px;

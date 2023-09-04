@@ -95,14 +95,40 @@
 .movent-block-info{
     padding-bottom: 30px;
 }
+@media screen and (min-width:768px) {
+    .movent-block-info{
+        padding-left: 20px;
+}
+}
+@media screen and (min-width:1440px) {
+    .movent-block-info{
+        padding-left: 24px;
+}
+}
+
 .link-movent{
     color: var(--bgd-btn-green);
 
     font-size: 20px;
+    text-align: center;
 
     font-weight: 450;
     line-height: 1.2;
-    padding-top: 8px;
+
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+@media screen and (min-width:768px) {
+   .link-movent{
+    gap: 14px;
+   } 
+}
+@media screen and (min-width:1440px) {
+   .link-movent{
+    gap: 20px;
+   } 
 }
 
 .movent-item{
