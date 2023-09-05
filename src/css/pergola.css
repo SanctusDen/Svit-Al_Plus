@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 1440px) {
 .pergola{
-    padding-top: 80px;
+    padding-top: 20px;
 }
 }
 
@@ -192,6 +192,7 @@
 }
 
 .pergola-block-desr{
+    display: none;
     height: 300px
 }
 @media screen and (min-width:768px) {

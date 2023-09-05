@@ -1,0 +1,21 @@
+.options{
+    padding-top: 20px;
+}
+@media screen and (min-width:768px) {
+    .options{
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .options{
+        padding-top: 40px;
+    }
+}
+
+.options-block{
+    width: 100%;
+}
+
+.options-icon{
+    width: 100%;
+}

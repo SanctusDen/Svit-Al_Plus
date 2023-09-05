@@ -1,0 +1,15 @@
+.kind-system{
+    padding-top: 40px;
+}
+@media screen and (min-width:768px) {
+    .kind-system{
+        padding-top: 0px;
+    }
+}
+
+.kind-system-block{
+    width: 100%;
+}
+.kind-system-icon{
+    width: 100%;
+}

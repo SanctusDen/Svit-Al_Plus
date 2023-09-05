@@ -1,0 +1,22 @@
+.advantages{
+    padding-bottom: 20px;
+}
+@media screen and (min-width:768px) {
+    .advantages{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .advantages{
+        padding-bottom: 40px;
+    }
+}
+
+.advantages-block{
+    width: 100%;
+}
+
+.advantages-icon{
+    width: 100%;
+}
+

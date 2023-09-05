@@ -19,6 +19,13 @@
 @import url('./animation.css');
 
 
+/* --------------- */
+
+@import url('./panoramne/options.css');
+@import url('./panoramne/advantages.css');
+@import url('./panoramne/kind-system.css');
+@import url('./panoramne/advantages-kind.css');
+
 @import url('./Liber.css');
 @import url('./soho.css');
 

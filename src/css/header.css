@@ -3,6 +3,11 @@ header{
     z-index: 99;
     padding: 20px 24px;
 }
+
+.hbgdb{
+    background-color: var(--bgd-section);
+}
+
 .header-home.no-transparency{
     background: linear-gradient(to right, #3c3b3f, #5c6b33);
     backdrop-filter: blur(400px);
@@ -157,7 +162,7 @@ header{
 
 @media screen and (min-width: 1440px) {
 .nav{
-    margin-left: 350px;
+    margin-left: 320px;
     margin-right: 150px;
 }
 }
@@ -177,7 +182,8 @@ header{
 
 @media screen and (min-width: 1440px) {
 .header-list{
-    gap: 58px;
+    gap: 44px;
+    width: 1100px;
 }
 }
 
@@ -185,6 +191,8 @@ header{
     color: var(--color-white-text);
     display: flex;
     justify-content: space-between;
+
+    cursor: pointer;
 }
 
 .header-item:hover,
@@ -215,3 +223,4 @@ header{
 .tel{
     width: 240px;
 }
+
