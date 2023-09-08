@@ -1,0 +1,128 @@
+.narrative-wind-flex{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    gap: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .narrative-wind-flex{
+        flex-direction: row;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 40px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .narrative-wind-flex{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        gap: 60px;
+    }
+}
+
+.narrative-wind-item{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.narrative-wind-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width:768px) {
+    .narrative-wind-list{
+        gap: 12px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .narrative-wind-list{
+        margin-top: 60px;
+    }
+}
+
+.narrative-wind-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width:768px) {
+    .narrative-wind-block{
+        gap: 12px;
+        margin-top: 12px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .narrative-wind-block{
+     margin-top: 0;   
+    }
+}
+
+.narrative-wind-icon{
+    width: 100%;
+}
+
+.narrative-wind-title{
+    color: var(--bgd-btn-green);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .narrative-wind-title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .narrative-wind-title{
+        font-size: 30px;
+        margin-top: 120px;   
+    }
+}
+
+
+
+.narrative-wind-descr{
+    color: var(--bgd-btn-green);
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .narrative-wind-descr{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .narrative-wind-descr{
+        font-size: 22px;
+    }
+}
+
+.narrative-wind-item-descr{
+    color: var(--color-black-text);
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.4;   
+}
+@media screen and (min-width:768px) {
+    .narrative-wind-item-descr{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .narrative-wind-item-descr{
+        font-size: 22px;
+    }
+}

@@ -63,6 +63,16 @@
 } */
 
 .wind-btn{
+    border-radius: 50px;
+    border: 2px solid var(--bgd-btn-green);
+    box-shadow: 2px 2px 10px 0px var(--bgd-btn-green), -2px -2px 10px 0px var(--bgd-btn-green);
+    padding: 10px 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: background-color 500ms var(--timing-cubic);
+
+
     background-color: transparent;
     color: var(--color-white-text);
     margin-left: auto;
@@ -77,6 +87,16 @@
 @media screen and (min-width:1440px) {
     .wind-btn{
         margin-top: 30px;
+    }
+}
+
+.wind-btn-box{
+    padding-top: 40px;
+}
+@media screen and (min-width:768px) {
+    .wind-btn-box{
+        padding-top: 20px;
+        padding-left: 10px;
     }
 }
 

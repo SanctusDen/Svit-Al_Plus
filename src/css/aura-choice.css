@@ -1,25 +1,44 @@
-.choice-color{
-    width: auto;
+.aura-choice{
     background: linear-gradient(to bottom, #E8E4E5 10%, #242729 10%);
 }
 @media screen and (min-width:768px) {
-    .choice-color{
-        width: 1440px;
-        padding-top: 30px;
+    .aura-choice{
         background: linear-gradient(to bottom, #E8E4E5 20%, #242729 20%);
     }
+}
+@media screen and (min-width:1440px) {
+    .aura-choice{
+        background: linear-gradient(to bottom, #E8E4E5 20%, #242729 20%);
+    }
+}
+/* .choice-color{
+    width: auto;
+}
+@media screen and (min-width:768px) {
+    .choice-color{
+        width: 768px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .choice-color{
+        width: 100%;
+    }
+} */
+
+.choice-aura-list{
+    width: auto;
 }
 
 @media screen and (min-width:768px) {
     .choice-aura-list{
-        /* width: 740px; */
+        width: 720px;
         display: flex;
         justify-content: space-evenly;
     }
 }
 @media screen and (min-width:1440px) {
     .choice-aura-list{
-        /* width: 1400px; */
+        width: auto;
         text-align: center;
     }
 }
@@ -30,19 +49,21 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.4;
+    text-align: center;
 
-    padding-left: 20px;
-    padding-top: 20px;
+
 }
 @media screen and (min-width:768px) {
     .aura-choice-title{
         font-size: 25px;
-        display: unset;
+        text-align: center;
+
+        padding-left: 0px;
+        padding-top: 0px;
     }
 }
 @media screen and (min-width:1440px) {
     .aura-choice-title{
-        font-size: 30px;
         display: flex;
         justify-content: center;
         padding-left: 0;
@@ -55,45 +76,67 @@
     font-weight: 400;
     line-height: 1.4;
 
-    padding-left: 20px;
+    padding-top: 20px;
+
+    text-align: center;
 }
 @media screen and (min-width:768px) {
     .aura-choice-descr{
     font-size: 20px;
-    width: 240px;
+
+    height: 160px;
+
+    padding-left: 0px;
+    
 }
 }
 @media screen and (min-width:1440px) {
     .aura-choice-descr{
-        font-size: 22px;
-        padding-left: 34px;
-
+        width: 350px;
+        height: 96px;
     }
 }
 
 .choice-btn{
     background-color: transparent;
     color: #fff;
-    margin-bottom: 20px;
-    margin-left: 20px;
+
+    height: 42px;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+
+    border-radius: 50px;
+    border: 2px solid #95BD27;
+    box-shadow: 2px 2px 10px 0px #95BD27, -2px -2px 10px 0px #95BD27;
 }
+.choice-btn:hover,
+.choice-btn:focus{
+    background-color: var(--bgd-btn-green);
+}
+
+
 @media screen and (min-width:768px) {
     .choice-btn{
-        margin-left: 50px;
-        margin-top: 20px;
     }
 }
 @media screen and (min-width:1440px ) {
     .choice-btn{
-        margin-left: 120px;
+        /* margin-left: 120px;
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 40px; */
     }
 }
 
 .choice-icon{
-    width: 100%;
+    width: auto;
 }
+@media screen and (min-width:768px) {
+    .choice-icon{
+        width: 220px;
+    }
+}
+
 
 .choice-icon:hover,
 .choice-icon:focus{
@@ -105,6 +148,8 @@
 
     box-shadow: 2px 2px 10px 0px #95BD27, 2px 2px 10px 0px #95BD27;
     transition: background-color 300ms var(--timing-cubic)
+
+    
 }
 
 .choice-icon{
@@ -114,7 +159,6 @@
 }
 @media screen and (min-width:768px){
     .choice-icon{
-        width: 220px;
         height: 300px;
         border-radius: 20px;
     }
@@ -124,5 +168,35 @@
         width: 350px;
         height: 450px;
         border-radius: 20px;
+    }
+}
+
+.aura-choice-box{
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+@media screen and (min-width:768px) {
+    .aura-choice-box{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .aura-choice-box{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.aura-choice-item{
+
+}
+@media screen and (min-width:768px) {
+    .aura-choice-item{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: inherit;
     }
 }

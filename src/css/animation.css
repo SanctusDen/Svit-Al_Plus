@@ -31,22 +31,12 @@ header{
   }
 }
 
-.panorama-title{
-    animation-name: slidein;
-    animation-duration: 4500ms;
-}
 
 .wind-title{
     animation-name: slidein;
     animation-duration: auto;
 }
 
-
-.panorama-desc{
-    animation-duration: 4s;
-    animation-name: skroll;
-    animation-direction: alternate;
-}
 
 @keyframes skroll {
   from {

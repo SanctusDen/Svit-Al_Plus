@@ -25,6 +25,13 @@
 @import url('./panoramne/advantages.css');
 @import url('./panoramne/kind-system.css');
 @import url('./panoramne/advantages-kind.css');
+@import url('./last-section.css');
+
+
+/* --------------- */
+
+@import url('./panoramaPageOne/narrative.css');
+@import url('./panoramaPageOne/narrative-wind.css');
 
 @import url('./Liber.css');
 @import url('./soho.css');
@@ -125,7 +132,7 @@ body{
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0px 32px;
+    padding: 0px 24px;
   }
 }
 
