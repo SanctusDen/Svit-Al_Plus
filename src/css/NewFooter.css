@@ -4,7 +4,6 @@ footer{
     width: 100%;
     background-color: var(--bgd-section);
     clear: both;
-    margin-top: 1px;
 }
 
 .footer-block{

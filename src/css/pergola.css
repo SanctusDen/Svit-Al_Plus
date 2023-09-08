@@ -59,6 +59,7 @@
     position: relative;
     font-size: 30px;
     flex-wrap: nowrap;
+    padding-bottom: 10px;
 }
 }
 
@@ -175,6 +176,8 @@
     height: auto;
     margin-left: 24px;
     font-size: 18px;
+
+    width: 160px;
 }
 
 .green-line-pergola{

@@ -1,5 +1,12 @@
 /* .kind-system{
-    padding-top: 106px;
+    background-image: url(/src/image/all/kind_system.png);
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1100px ;
 } */
 
 
