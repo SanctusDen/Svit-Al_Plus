@@ -1,0 +1,122 @@
+.auratwo{
+    padding-top: 106px;
+    background: linear-gradient(to right, #242729 100%, #E8E4E5 100%);
+}
+@media screen and (min-width:768px) {
+    .auratwo{
+    }
+}
+@media screen and (min-width:1440px ) {
+    .auratwo{
+        background: linear-gradient(to right, #242729 50%, #E8E4E5 50%);
+    }
+    
+}
+
+.auratwo-block{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px) {
+    .auratwo-block{
+        
+    }
+}
+@media screen and (min-width:1440px ) {
+    .auratwo-block{
+        flex-direction: row;
+    }
+}
+
+.auratwo-title{
+    color: var(--color-white-text);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+@media screen and (min-width:768px) {
+    .auratwo-title{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:1440px ) {
+    .auratwo-title{
+        font-size: 30px;
+    }
+}
+
+.auratwo-green{
+    color: var(--bgd-btn-green);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    padding-top: 20px;
+}
+.auratwo-descr{
+    color: var(--color-white-text);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    padding-top: 20px;
+}
+@media screen and (min-width:768px) {
+    .auratwo-descr{
+        font-size: 20px;
+    }
+    .auratwo-green{
+        font-size: 20px;   
+    }
+}
+@media screen and (min-width:1440px ) {
+    .auratwo-descr{
+        font-size: 22px;
+        
+    }
+    .auratwo-green{
+        font-size: 22px;   
+    }
+}
+
+.auratwo-info{
+
+}
+@media screen and (min-width:768px) {
+    .auratwo-info{
+
+    }
+}
+@media screen and (min-width:1440px ) {
+    .auratwo-info{
+        margin-top: 60px;
+        width: 610px;
+        margin-left: 20px;
+    }
+}
+
+.auratwo-icon{
+    width: 100%;
+}
+.auratwobox{
+    width: auto;
+
+    padding-top: 40px;
+}
+@media screen and (min-width:768px) {
+    .auratwobox{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:1440px) {
+    .auratwobox{
+        margin-right: 0;
+        margin-left: 200px;
+        padding-top: 0;
+    }
+}

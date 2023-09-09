@@ -73,6 +73,8 @@
     }
 }
 .giardi-btn{
+    width: 200px;
+    
     color: var(--color-white-text);
     background-color: transparent;
 }
@@ -120,4 +122,8 @@
         margin-top: 240px;
         margin-left: 80px;
     }
+}
+
+.ppgiardi-icon{
+    width: 100%;
 }

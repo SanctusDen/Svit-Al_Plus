@@ -1,0 +1,70 @@
+.pernimb{
+    padding-top: 96px;
+    padding-bottom: 40px;
+}
+@media screen and (min-width:768px) {
+    .pernimb{
+        padding-top: 88px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .pernimb{
+        padding-top: 106px;
+    }
+}
+.pernimb-list{
+    display: flex;
+    flex-direction: column;
+}
+.pernimb-list :nth-child(2){
+    background-color: var(--bgd-section);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.pernimb-icon{
+    width: 100%;
+}
+
+.pernimb-title{
+    color: var(--color-white-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    
+    padding-top: 20px;
+}
+.pernimb-descr{
+    color: var(--color-white-text);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+@media screen and (min-width:768px){
+    .pernimb-descr{
+        font-size: 20px;
+    }
+    .pernimb-title{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:1440px){
+    .pernimb-descr{
+        font-size: 22px;
+    }
+    .pernimb-title{
+        font-size: 30px;
+    }
+    .pernimb-icon{
+        width: auto;
+    }
+    .pernimb-list{
+        flex-direction: row;
+        gap: 20px   ;
+    }
+}
