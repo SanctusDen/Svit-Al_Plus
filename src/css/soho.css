@@ -110,3 +110,29 @@
 .sb-icon{
     background-color: var(--bgd-color-section);
 }
+
+
+
+
+
+/* --------white-------- */
+
+.soho-white-list{
+    background-color: inherit;
+}
+.soho-white-descr{
+    color: var(--bgd-section);
+}
+.soho-white-title{
+    color: var(--bgd-section);
+}
+
+.soho-white{
+    padding-top: 106px;
+}
+@media screen and (min-width:1440px){
+    .soho-white-icon{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}

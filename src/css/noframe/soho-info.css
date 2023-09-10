@@ -1,0 +1,50 @@
+.soho-info-descr{
+    color: var(--color-white-text);
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.4;
+}
+.soho-info-img{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(/src/image/sprite/soho/soho.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+    background-size: cover;
+
+    border-radius: 12px;
+
+}
+
+.soho-info-title{
+    color: var(--bgd-btn-green);
+    
+    font-size: 25px;
+
+    font-weight: 500;
+    line-height: 1.4;
+
+    text-align: center;
+} 
+.soho-info-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.soho-big-icon{
+    width: 100%;
+}
+@media screen and (min-width:1440px) {
+    .soho-info-title{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .soho-info-block{
+        flex-direction: row;
+    }
+    .soho-flex{
+        padding-left: 60px;
+    }
+}
+

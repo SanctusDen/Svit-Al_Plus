@@ -51,6 +51,9 @@
 @import url('./soho.css');
 @import url('./behaind.css');
 @import url('./noframe/pageone/parallel-standart.css');
+@import url('./noframe/soho-info.css');
+@import url('./noframe/hero-liber.css');
+@import url('./noframe/liber-st.css');
 
 :root {
   --bgd-btn-green: #95BD27;

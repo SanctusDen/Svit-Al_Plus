@@ -1,0 +1,24 @@
+.liber-st{
+    background: linear-gradient(to right, #E8E4E5 50%, #242729 50%);
+    padding: 20px 0 20px 0;
+}
+.liber-st-icon{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:768px  ) {
+    .liber-st-list{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1440px  ) {
+    .liber-st-icon{
+        width: auto;
+        height: 740px;
+    }
+    .liber-st-list :nth-child(2){
+        margin-left: auto;
+    }
+}
