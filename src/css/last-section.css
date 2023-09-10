@@ -33,13 +33,13 @@
 }
 @media screen and (min-width:768px) {
     .last-section-block{
-        width: 560px;
+        width: 570px;
         margin-bottom: 20px;
     }
 }
 @media screen and (min-width:1440px) {
     .last-section-block{
-        width: 610px;
+        width: 630px;
         margin-top: 60px;
     }
 }

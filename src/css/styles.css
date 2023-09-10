@@ -42,11 +42,15 @@
 @import url('./Roof/rooftwo/axial.css');
 @import url('./Roof/rooftwo/sliding.css');
 @import url('./Roof/roofthree/garden.css');
+@import url('./Roof/roofthree/garden-prem.css');
 
+
+@import url('./noframe/noframe.css');
+@import url('./noframe/pageone/parallel.css');
 @import url('./Liber.css');
 @import url('./soho.css');
-
 @import url('./behaind.css');
+@import url('./noframe/pageone/parallel-standart.css');
 
 :root {
   --bgd-btn-green: #95BD27;

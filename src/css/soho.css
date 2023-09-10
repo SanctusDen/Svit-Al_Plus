@@ -87,6 +87,8 @@
 .soho-btn{
     background-color: transparent;
     color: var(--color-white-text);
+
+    width: 200px;
 }
 
 .soho-icon{

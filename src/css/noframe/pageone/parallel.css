@@ -1,0 +1,77 @@
+.parallel{
+    background: linear-gradient(to bottom, #E8E4E5 30%, #242729 30%);
+    padding-top: 108px;
+    padding-bottom: 40px;
+}
+
+.parallel-flex {
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.parallel-icon{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.parallel-block{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 20px;
+    text-align: center;
+}
+
+.parallel-title{
+    color: var(--color-white-text);
+
+    font-size: 20px;
+
+    font-weight: 700;
+    line-height: 1.4;
+}
+.parallel-descr{
+    color: var(--color-white-text);
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+@media screen and (min-width:768px) {
+    .parallel-title{
+        font-size: 25px;
+    }
+    .parallel-descr{
+        font-size: 20px;
+    }
+    .parallel-icon{
+        height: 350px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .parallel-title{
+        color: var(--color-black-text);
+
+        font-size: 30px;
+    }
+    .parallel-descr{
+        color: var(--color-black-text);
+
+        font-size: 22px;
+    }
+    .parallel-flex{
+        flex-direction: column;
+    }
+    .parallel{
+        background: linear-gradient(to bottom, #E8E4E5 70%, #242729 70%);
+    }
+    .parallel-icon{
+        height: 500px;
+        border-radius: 30px;
+    }
+}
