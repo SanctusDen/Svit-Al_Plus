@@ -25,6 +25,7 @@
 @media screen and (min-width:1440px ) {
     .auratwo-block{
         flex-direction: row;
+        padding-bottom: 40px;
     }
 }
 

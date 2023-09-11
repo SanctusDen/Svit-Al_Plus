@@ -34,12 +34,15 @@
         width: 720px;
         display: flex;
         justify-content: space-evenly;
+        gap: 20px;
+        padding-top: 30px;
     }
 }
 @media screen and (min-width:1440px) {
     .choice-aura-list{
         width: auto;
         text-align: center;
+        padding-top: 40px;
     }
 }
 
@@ -59,7 +62,7 @@
         text-align: center;
 
         padding-left: 0px;
-        padding-top: 0px;
+        padding-top: 20px;
     }
 }
 @media screen and (min-width:1440px) {
@@ -67,6 +70,7 @@
         display: flex;
         justify-content: center;
         padding-left: 0;
+        
     }
 }
 
@@ -176,15 +180,17 @@
 
     margin-bottom: 20px;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 @media screen and (min-width:768px) {
     .aura-choice-box{
         margin-bottom: 40px;
+        margin-top: 0;
     }
 }
 @media screen and (min-width:1440px) {
     .aura-choice-box{
-        margin-top: 60px;
+        gap: 0;
         margin-bottom: 60px;
     }
 }
